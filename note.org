@@ -1,0 +1,60 @@
+variance : test vs train high variance overfit
+bias : train vs validation high bias underfit
+softmax : truong hop nhieu lop phan loai thoa man tong = 1 tat ca <1
+* cnn : combo HOG + SVM
+  kernel 
+  http://tavmjong.free.fr/INKSCAPE/MANUAL_v14/html_it/Filters-Pixel.html
+* Supervised Learning
+** Classification (Phân loại)
+** Regression (Hồi quy)
+   Gần đây Microsoft có một ứng dụng dự đoán giới tính và tuổi dựa trên khuôn mặt.
+   Phần dự đoán giới tính có thể coi là thuật toán Classification, phần dự đoán tuổi có thể coi là thuật toán Regression.
+   Chú ý rằng phần dự đoán tuổi cũng có thể coi là Classification nếu ta coi tuổi là một số nguyên dương không lớn hơn 150,
+   chúng ta sẽ có 150 class (lớp) khác nhau.
+* Unsupervised Learning
+** Clustering (phân nhóm)
+** Association
+   Là bài toán khi chúng ta muốn khám phá ra một quy luật dựa trên nhiều dữ liệu cho trước.
+** Semi-Supervised Learning (Học bán giám sát)
+  Các bài toán khi chúng ta có một lượng lớn dữ liệu X nhưng chỉ một phần trong chúng được gán nhãn được gọi
+  là Semi-Supervised Learning.
+** Reinforcement Learning (Học Củng Cố)
+   - maximizing the performance
+   - Game Theory
+* Algorithm
+** Regression Algorithms
+*** Linear Regression
+*** Logistic Regression
+*** Stepwise Regression
+** Classification Algorithms
+*** Linear Classifier
+*** Support Vector Machine (SVM)
+*** Kernel SVM
+** Instance-based Algorithms
+*** k-Nearest Neighbor (kNN)
+*** Learning Vector Quantization (LVQ)
+** Regularization Algorithms
+*** Ridge Regression
+*** Least Absolute Shrinkage and Selection Operator (LASSO)
+*** Least-Angle Regression (LARS)
+** Bayesian Algorithms
+*** Naive Bayes
+*** Gaussian Naive Bayes
+** Clustering Algorithms
+*** k-Means clustering
+*** k-Medians
+*** Expectation Maximization (EM)
+** Artificial Neural Network Algorithms
+*** Perceptron
+*** Softmax Regression
+*** Multi-layer Perceptron
+*** Back-Propagation
+** Dimensionality Reduction Algorithms
+*** Principal Component Analysis (PCA)
+*** Linear Discriminant Analysis (LDA)
+** Ensemble Algorithms
+*** Boosting
+*** AdaBoost
+*** Random Forest
+
+
