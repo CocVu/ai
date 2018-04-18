@@ -12,7 +12,6 @@ decorator==4.2.1
 dnspython==1.15.0
 docutils==0.14
 ecdsa==0.13
-Electrum==3.0.5
 entrypoints==0.2.3
 enum34==1.1.6
 flake8==3.5.0
@@ -22,7 +21,7 @@ html5lib==1.0.1
 hy==0.14.0
 idna==2.6
 ipykernel==4.8.2
-ipython==6.2.1
+ipython
 ipython-genutils==0.2.0
 ipywidgets==7.2.0
 jedi==0.11.1
@@ -69,7 +68,7 @@ pytz==2017.3
 pyzmq==17.0.0
 qrcode==5.3
 qtconsole==4.3.1
-ranger-fm==1.9.1
+ranger-fm
 requests==2.18.4
 requests-file==1.4.3
 requests-ftp==0.3.1
